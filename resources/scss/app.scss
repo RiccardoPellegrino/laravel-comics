@@ -1,1 +1,13 @@
 @import '~bootstrap/scss/bootstrap';
+
+a{
+    font-weight: normal;
+    margin-right: 10px;
+}
+a.active{
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    margin: 0, 5px;
+}
