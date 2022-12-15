@@ -8,7 +8,7 @@
 <div class="card" style="width: 12rem;">
     <img src="{{$comic['thumb']}}" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-title text-white">{{$comic['title']}}</p>
+      <p class="card-title text-white">{{$comic['series']}}</p>
     </div>
   </div>
   @endforeach
