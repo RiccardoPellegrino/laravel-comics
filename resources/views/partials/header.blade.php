@@ -77,7 +77,7 @@
 
 <style>
 .f-size {
-  font-size: 11px;
+  font-size: 20px;
 }
 header {
   height: 120px;
