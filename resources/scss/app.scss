@@ -50,3 +50,37 @@ main {
     padding: 0px 40px;
     font-size: larger;
 }
+.bottom-footer {
+    background-color: gray;
+
+    div.container {
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+        background-color: transparent;
+        border: 2px solid $blue;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        }
+            span {
+            text-transform: uppercase;
+            color: $blue;
+            font-weight: bold;
+            padding-right: 20px;
+            }
+            a {padding-right: 0.8rem; 
+                img {
+                    width:30px;
+                    cursor: pointer;
+
+                    &:hover{
+                        filter: brightness(0) invert(1);
+                    }
+                }   
+            
+        }
+    }
+    
+}
