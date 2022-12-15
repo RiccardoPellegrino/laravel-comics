@@ -5,13 +5,16 @@
 <div class="mio_container">
 @foreach ($comics as $comic)
 
-<div class="card" style="width: 14rem;">
+<div class="card" style="width: 12rem;">
     <img src="{{$comic['thumb']}}" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title text-white">{{$comic['title']}}</h5>
+      <p class="card-title text-white">{{$comic['title']}}</p>
     </div>
   </div>
   @endforeach
 </div>
+</div>
+<div class="d-flex justify-content-center pb-3">
+<button class="btn btn-primary">LOAD MORE</button>
 </div>
 @endsection
