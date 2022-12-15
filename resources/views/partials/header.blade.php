@@ -1,7 +1,7 @@
 <header class="bg-white ">
   
   <div class="bg-primary flex-end ">
-    <div class="container">
+    <div class="">
         <ul class=" text-white d-flex list-unstyled justify-content-end">
             <li class="me-3">DC POWER ^SM VISA &copy;</li>
             <li>Additional dc site</li>
@@ -9,12 +9,13 @@
     </div>
   </div>
 
-  <nav class="container">
-    <a href="#">
+  <nav class="container d-flex">
+    <a href="{{route('home')}}">
       <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="Logo">
     </a>
- <div>
-<ul>
+ 
+
+<ul class="d-flex">
     <li>
       <a class="nav-link {{Route::currentRouteName() == 'characters' ? 'active' : ''}}" href="{{route('characters')}}">
         Characters
@@ -68,5 +69,7 @@
 </ul>
 
 </nav>
+<div class="jumbo">
+
 </div>
 </header>

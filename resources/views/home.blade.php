@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Home page</h1>
+<h3 class="text-center">Home page</h3>
 <ul>
     @foreach ($comics as $comic)
         <li>
-           <h1>{{$comic['title']}}</h1> 
+           <h3>{{$comic['title']}}</h3> 
            <img src="{{$comic['thumb']}}" alt=""> 
         </li>
     @endforeach

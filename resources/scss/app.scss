@@ -1,13 +1,26 @@
 @import '~bootstrap/scss/bootstrap';
 
-a{
+a {
     font-weight: normal;
     margin-right: 10px;
 }
-a.active{
+
+a.active {
     font-weight: bold;
+    color: blue;
 }
-li{
+
+li {
     list-style: none;
     margin: 0, 5px;
+}
+
+footer {
+    height: 100px;
+    background-color: gray;
+}
+
+.jumbo {
+    background-image: url('../img/jumbotron.jpg');
+    height: 400px;
 }
